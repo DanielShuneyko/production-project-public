@@ -10,7 +10,7 @@ const MainPage = () => {
         <div>
             {t('Главная страница')}
             <Input
-                placeholder="Введите текст"
+                placeholder={t('Введите текст')}
             />
         </div>
     );

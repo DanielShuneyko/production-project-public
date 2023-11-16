@@ -1,9 +1,9 @@
-import {classNames} from 'shared/lib/classNames/classNames';
-import {useTranslation} from 'react-i18next';
+import { classNames } from 'shared/lib/classNames/classNames';
+import { useTranslation } from 'react-i18next';
+import React, { useCallback, useState } from 'react';
+import { Button, Buttontheme } from 'shared/ui/Button/Button';
+import { LoginModal } from 'features/AuthByUsername';
 import cls from './Navbar.module.scss';
-import React, {useCallback, useState} from "react";
-import {Button, Buttontheme} from "shared/ui/Button/Button";
-import {LoginModal} from "features/AuthByUsername";
 
 interface NavbarProps {
     className?: string;

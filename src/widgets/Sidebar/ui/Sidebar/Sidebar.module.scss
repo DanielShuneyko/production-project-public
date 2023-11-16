@@ -14,6 +14,15 @@
     width: 100%;
 }
 
+.lang {
+    margin-left: 10px;
+}
+
+.link {
+    margin-left: 10px;
+    opacity: 1;
+}
+
 .collapsed {
     width: var(--sidebar-width-collapsed);
 
@@ -31,10 +40,6 @@
         transition: 0.2s opacity;
         width: 0;
     }
-}
-
-.lang {
-    margin-left: 10px;
 }
 
 .collapseBtn {
@@ -56,11 +61,6 @@
     align-items: center;
 }
 
-.link {
-    margin-left: 10px;
-    opacity: 1;
-}
-
 .icon {
-    fill: var(--inverted-primary-color)
+    fill: var(--inverted-primary-color);
 }

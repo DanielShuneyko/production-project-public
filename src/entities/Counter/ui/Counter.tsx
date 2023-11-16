@@ -22,13 +22,13 @@ export const Counter = () => {
                 onClick={increment}
                 data-testid="increment-btn"
             >
-                Increment
+                +1
             </Button>
             <Button
                 onClick={decrement}
                 data-testid="decrement-btn"
             >
-                Decrement
+                -1
             </Button>
         </div>
     );
