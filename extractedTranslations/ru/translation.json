@@ -1,5 +1,7 @@
 {
   "RoutePath": "RoutePath",
+  "decrement": "decrement",
+  "increment": "increment",
   "throw error": "throw error",
   "Введите ": "Введите ",
   "Введите username": "Введите username",
